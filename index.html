@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">DevPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Bridget</span> 👋</h1>
+            <h2>Full-Stack & Backend Web Developer</h2>
+            <p>I design and build robust, user-friendly web applications with Django, Python, and PostgreSQL. Focused on responsive design, modern cloud architecture, and practical backend engineering.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="https://github.com/Nabagereka00" target="_blank" class="btn secondary-btn">GitHub Profile</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Project 1: ShopSwift -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="badge completed">Live Project</span>
+                    <h3>🛍️ ShopSwift</h3>
+                </div>
+                <p class="project-description">
+                    Full-stack e-commerce platform built with Django and PostgreSQL. Features dynamic product catalog, cloud media management via Cloudinary, and continuous deployment on Render.
+                </p>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>Django</span>
+                    <span>PostgreSQL</span>
+                    <span>Cloudinary</span>
+                    <span>Render</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://shopswift-t918.onrender.com" target="_blank" class="btn card-btn">Live Demo 🚀</a>
+                    <a href="https://github.com/Nabagereka00/ShopSwift" target="_blank" class="btn card-btn outline">GitHub Repo 💻</a>
+                </div>
+            </div>
+
+            <!-- Project 2: ContentShift (In Progress) -->
+            <div class="project-card building">
+                <div class="project-header">
+                    <span class="badge in-progress">In Active Development</span>
+                    <h3>⚡ ContentShift</h3>
+                </div>
+                <p class="project-description">
+                    AI-powered content transformation SaaS application. Uses Google Gemini API to convert long articles or drafts into structured LinkedIn posts, X/Twitter threads, and executive summaries.
+                </p>
+                <div class="tech-tags">
+                    <span>Django</span>
+                    <span>Gemini AI API</span>
+                    <span>PostgreSQL</span>
+                    <span>REST API</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <span class="coming-soon-text">🛠️ Launching Soon</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section dark-bg">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <p>Python, Django, Django REST Framework, SQLite, PostgreSQL</p>
+            </div>
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <p>HTML5, CSS3, Responsive Design (Mobile-First), JavaScript (ES6+)</p>
+            </div>
+            <div class="skill-category">
+                <h3>Cloud & Tools</h3>
+                <p>Git, GitHub, Cloudinary, Render, VS Code, Environment Security</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-text">I am currently open to full-stack and backend developer roles. Feel free to reach out!</p>
+        <div class="contact-links">
+            <a href="https://github.com/Nabagereka00" target="_blank" class="btn primary-btn">GitHub</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=brigdetnabagereka4@gmail.com" target="_blank" class="btn secondary-btn">Email Me</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Bridget. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
