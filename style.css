@@ -272,3 +272,43 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* Base card styling for background image overlays */
+.project-card {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Dark semi-transparent overlay to ensure text remains clear and readable */
+.project-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(10, 10, 15, 0.88); /* Adjust dark tint here if needed */
+    z-index: -1;
+    transition: background 0.3s ease;
+}
+
+.project-card:hover::before {
+    background: rgba(10, 10, 15, 0.75); /* Softens on hover to reveal image */
+}
+
+/* Custom background image paths */
+.shopswift-card {
+    background-image: url('images/shopswift.png');
+}
+
+.contentshift-card {
+    background-image: url('images/contentshift.png');
+}
+
+.chatwithpdf-card {
+    background-image: url('images/chatwith pdf.png');
+}
